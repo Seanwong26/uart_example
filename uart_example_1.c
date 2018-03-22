@@ -96,7 +96,9 @@ void setup()
         "--------------------------------------------------------------------- \r\n"
         "Welcome to UART Example 1... \r\n"
         "\r\n"
-        "Any character typed here will be echoed back on the same serial port. \r\n"
+        "issue commands on uart as below: \r\n"
+        " \"w 100 23\", means <write mode> <RAM address to write> <value to write> \r\n"
+    	" \"r 100\"   , means <read mode> <RAM address to read> \r\n"
         "--------------------------------------------------------------------- \r\n"
         );
     /* Enable tfp_printf() functionality... */
